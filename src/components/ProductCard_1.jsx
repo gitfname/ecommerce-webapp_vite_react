@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom"
 
 function ProductCard_1({img, title="", price="", available={show:false, available:true, t:"موجود", f:"نامجود"}}) {
 
     return (
-    <div className="w-64 cursor-pointer h-full select-none">
+    <Link to="/ecommerce-webapp_vite_react/products/10" className="w-64 h-full select-none block">
         <div className="border border-slate-300/80 rounded-xl overflow-hidden group">
             <img
                 alt=""
@@ -38,7 +39,7 @@ function ProductCard_1({img, title="", price="", available={show:false, availabl
             }
             
         </div>
-    </div>
+    </Link>
   )
 }
 

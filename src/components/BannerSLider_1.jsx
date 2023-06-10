@@ -27,7 +27,7 @@ export default function BannerSlider_1() {
                 <SwiperSlide>
                     <img
                         alt=""
-                        src="/images/SlideShow_1_1_D.webp"
+                        src={import.meta.env.BASE_URL+"/images/SlideShow_1_1_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
                     />
                 </SwiperSlide>
@@ -35,7 +35,7 @@ export default function BannerSlider_1() {
                 <SwiperSlide>
                     <img
                         alt=""
-                        src="/images/SlideShow_2_D.webp"
+                        src={import.meta.env.BASE_URL+"/images/SlideShow_2_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
                     />
                 </SwiperSlide>
@@ -43,7 +43,7 @@ export default function BannerSlider_1() {
                 <SwiperSlide>
                     <img
                         alt=""
-                        src="/images/SlideShow_3_D.webp"
+                        src={import.meta.env.BASE_URL+"/images/SlideShow_3_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
                     />
                 </SwiperSlide>

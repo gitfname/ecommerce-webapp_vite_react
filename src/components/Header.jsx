@@ -356,7 +356,7 @@ const megaMenu_3 = [
 
 function Header() {
   return (
-    <div className="w-full max-w-7xl px-4 lg:px-10 mx-auto py-6">
+    <div className="w-full max-w-7xl px-4 lg:px-10 mx-auto py-6 border-b border-slate-200">
         <div className="w-full flex items-center justify-between">
 
             <div className="flex items-center gap-x-8 flex-1">
