@@ -1,0 +1,49 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: iranyekan100;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-thin.ttf);
+}
+@font-face {
+    font-family: iranyekan200;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-light.ttf);
+}
+@font-face {
+    font-family: iranyekan300;
+    src: url(/fonts/iranyekan/Qs_Iranyekan.ttf);
+}
+@font-face {
+    font-family: iranyekan400;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-medium.ttf);
+}
+@font-face {
+    font-family: iranyekan500;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-bold.ttf);
+}
+@font-face {
+    font-family: iranyekan600;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-extrabold.ttf);
+}
+@font-face {
+    font-family: iranyekan700;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-black.ttf);
+}
+@font-face {
+    font-family: iranyekan800;
+    src: url(/fonts/iranyekan/Qs_Iranyekan-extrablack.ttf);
+}
+
+* {
+    @apply text-[14px] xl:text-[16px] 2xl:text-[18px];
+    font-family: iranyekan400;
+}
+
+
+.mega-menu-box-shadow {
+    box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.15);
+}
