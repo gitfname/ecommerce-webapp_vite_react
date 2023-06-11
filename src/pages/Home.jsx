@@ -372,7 +372,7 @@ function Home() {
                 }
               },
             ]}
-            renderer={item => <ProductCard_1 {...item} />}
+            renderer={(item, i) => <ProductCard_1 key={i} {...item} />}
           />
         </SectionGroup_1>
       </div>
