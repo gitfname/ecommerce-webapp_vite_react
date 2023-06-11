@@ -2,6 +2,8 @@
 import { useRef } from "react"
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md"
 import { Swiper, SwiperSlide } from "swiper/react"
+import LazyImg from "./LazyImg"
+import LazyImg_2 from "./LazyImg_2"
 
 function ProductImageSlider_1({items=[{id: "", img: ""}], prevNextBtnClassName=""}) {
     const swiperRef = useRef(null)
@@ -22,12 +24,15 @@ function ProductImageSlider_1({items=[{id: "", img: ""}], prevNextBtnClassName="
                         <SwiperSlide
                             key={item.id}
                         >
-                            <img
-                                loading="lazy"
-                                alt=""
-                                src={import.meta.env.BASE_URL+item.img}
-                                className="w-auto h-auto"
-                            />
+                            <LazyImg
+                            >
+                                <img
+                                    loading="lazy"
+                                    alt=""
+                                    data-src={import.meta.env.BASE_URL+item.img}
+                                    className="w-auto h-auto"
+                                />
+                            </LazyImg>
                         </SwiperSlide>
                     ))
                 }

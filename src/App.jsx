@@ -18,8 +18,8 @@ function App() {
         <Header />
       </Suspense>
       <Routes>
-        <Route path="/ecommerce-webapp_vite_react" element={<Suspense><Home /></Suspense>} />
-        <Route path="/ecommerce-webapp_vite_react/products/:productid" element={<Suspense><SingleProduct /></Suspense>} />
+        <Route path="/" element={<Suspense><Home /></Suspense>} />
+        <Route path="/products/:productid" element={<Suspense><SingleProduct /></Suspense>} />
       </Routes>
       <Suspense>
         <Footer />

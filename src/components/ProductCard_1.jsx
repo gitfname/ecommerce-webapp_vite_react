@@ -1,16 +1,21 @@
 import { Link } from "react-router-dom"
+import LazyImg from "./LazyImg"
+import LazyImg_2 from "./LazyImg_2"
 
 function ProductCard_1({img, title="", price="", available={show:false, available:true, t:"موجود", f:"نامجود"}}) {
 
     return (
-    <Link to="/ecommerce-webapp_vite_react/products/10" className="w-64 h-full select-none block">
-        <div className="border border-slate-300/80 rounded-xl overflow-hidden group">
-            <img loading="lazy"
-                alt=""
-                src={img}
-                className="w-full h-auto group-hover:scale-110 transition-transform duration-300"
-            />
-        </div>
+    <Link to="/products/10" className="w-64 h-full select-none block">
+        <LazyImg>
+            <div className="border border-slate-300/80 rounded-xl overflow-hidden group">
+                <img
+                    loading="lazy"
+                    alt=""
+                    data-src={img}
+                    className="w-full h-auto group-hover:scale-110 transition-transform duration-300"
+                />
+            </div>
+        </LazyImg>
         <div className="p-2.5 mt-2">
             <p
                 className="text-sm font-[iranyekan500] text-slate-700 leading-6 line-clamp-3"

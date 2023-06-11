@@ -2,6 +2,7 @@
 import { useRef } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md"
+import LazyImg from "./LazyImg"
 
 function ProductSLider_1({items=[], renderer=(()=>0), prevNextBtnClassName=""}) {
     const swiperRef = useRef(null)
@@ -38,7 +39,9 @@ function ProductSLider_1({items=[], renderer=(()=>0), prevNextBtnClassName=""}) 
                 {
                     items.map((item, i) => (
                         <SwiperSlide key={i} className="!w-max">
-                            {renderer(item)}
+                            {/* <LazyImg> */}
+                                {renderer(item)}
+                            {/* </LazyImg> */}
                         </SwiperSlide>
                     ))
                 }

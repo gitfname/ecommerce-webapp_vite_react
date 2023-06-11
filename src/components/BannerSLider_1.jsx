@@ -27,25 +27,29 @@ export default function BannerSlider_1() {
                 <SwiperSlide>
                     <img loading="lazy"
                         alt=""
-                        src={import.meta.env.BASE_URL+"/images/SlideShow_1_1_D.webp"}
+                        src={import.meta.env.BASE_URL+"images/SlideShow_1_1_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
                     />
+                    <div className="swiper-lazy-preloader"></div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <img loading="lazy"
                         alt=""
-                        src={import.meta.env.BASE_URL+"/images/SlideShow_2_D.webp"}
+                        src={import.meta.env.BASE_URL+"images/SlideShow_2_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
                     />
+                    <div className="swiper-lazy-preloader"></div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <img loading="lazy"
                         alt=""
-                        src={import.meta.env.BASE_URL+"/images/SlideShow_3_D.webp"}
+                        src={import.meta.env.BASE_URL+"images/SlideShow_3_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
                     />
+                    <div className="swiper-lazy-preloader"></div>
+
                 </SwiperSlide>
             </Swiper>
 
