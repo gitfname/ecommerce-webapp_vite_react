@@ -10,19 +10,19 @@ function Home() {
       <BannerSlider_1 />
 
       <div className="mt-6 grid grid-cols-3 gap-6 px-10 place-items-center max-lg:hidden">
-        <img
+        <img loading="lazy"
           alt=""
           src={import.meta.env.BASE_URL+"/images/Horizental_1_D.webp"}
           className="w-auto h-auto object-center object-cover rounded-sm"
         />
 
-        <img
+        <img loading="lazy"
           alt=""
           src={import.meta.env.BASE_URL+"/images/Horizental_2_D.webp"}
           className="w-auto h-auto object-center object-cover rounded-sm"
         />
 
-        <img
+        <img loading="lazy"
           alt=""
           src={import.meta.env.BASE_URL+"/images/Horizental_3_D.webp"}
           className="w-auto h-auto object-center object-cover rounded-sm"
@@ -35,7 +35,7 @@ function Home() {
         >
           <div className="w-full grid max-lg:place-items-center lg:grid-cols-[30%_70%] lg:border border-slate-300">
               <div className="place-self-center max-lg:hidden">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-7.webp"}
                     className="w-32 h-auto object-center object-cover rounded-sm block"
@@ -47,7 +47,7 @@ function Home() {
 
               <div className="w-full grid grid-cols-2 max-lg:gap-3 lg:grid-cols-3 lg:border-r border-slate-300">
                 <div className="max-lg:border max-lg:rounded-xl border-b lg:hidden border-l border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-7.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -58,7 +58,7 @@ function Home() {
                 </div>
 
                 <div className="max-lg:border max-lg:rounded-xl border-b border-l border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-1.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -69,7 +69,7 @@ function Home() {
                 </div>
 
                 <div className="max-lg:border max-lg:rounded-xl border-b border-l border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-3.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -80,7 +80,7 @@ function Home() {
                 </div>
 
                 <div className="max-lg:border max-lg:rounded-xl border-b border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-2.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -91,7 +91,7 @@ function Home() {
                 </div>
 
                 <div className="max-lg:border max-lg:rounded-xl border-l border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-5.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -102,7 +102,7 @@ function Home() {
                 </div>
 
                 <div className="max-lg:border max-lg:rounded-xl border-l border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-4.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -113,7 +113,7 @@ function Home() {
                 </div>
 
                 <div className="max-lg:border max-lg:rounded-xl border-slate-300 flex max-md:flex-col gap-y-3 items-center gap-x-3 p-6 cursor-pointer">
-                  <img
+                  <img loading="lazy"
                     alt=""
                     src={import.meta.env.BASE_URL+"/images/img-6.webp"}
                     className="w-20 h-auto object-center object-cover rounded-sm"
@@ -378,7 +378,7 @@ function Home() {
       </div>
 
       <div className="mt-14 w-full px-4 lg:px-10">
-        <img
+        <img loading="lazy"
           alt=""
           src={import.meta.env.BASE_URL+"/images/Single_1_D.webp"}
           className="w-auto h-auto object-center object-cover max-sm:hidden"
@@ -387,7 +387,7 @@ function Home() {
 
       <div className="w-full mt-14 px-4 lg:px-10">
         <SectionGroup_1
-          title="مجله دایان شاپ"
+          title="مجله اربیکس شاپ"
           seeMore
           seeMoreSideText="مشاهده بلاگ"
         >
@@ -404,7 +404,7 @@ function Home() {
               img={import.meta.env.BASE_URL+"/images/blog-post-img-2.jpg"}
               title="استایل مونوکروم چیست؟ 25 استایل جذاب و متفاوت"
               subtitle="
-              اگر می خواهید جذاب باشید لازم نیست حتما لباس های رنگارنگ بپوشید. می توانید با لباس های تک رنگ و استفاده از طیف های یک رنگ تیپ زیبایی داشته باشید. در این مقاله از دایان شاپ جدیدترین استایل مونوکروم یا (استایل تک رنگ) و انواع آن را همراه با به روزترین عکس ها برای هر [&hellip;]
+              اگر می خواهید جذاب باشید لازم نیست حتما لباس های رنگارنگ بپوشید. می توانید با لباس های تک رنگ و استفاده از طیف های یک رنگ تیپ زیبایی داشته باشید. در این مقاله از اربیکس شاپ جدیدترین استایل مونوکروم یا (استایل تک رنگ) و انواع آن را همراه با به روزترین عکس ها برای هر [&hellip;]
               "
             />
 
@@ -412,7 +412,7 @@ function Home() {
               img={import.meta.env.BASE_URL+"/images/blog-post-img-3.jpg"}
               title="جدیدترین مدل های شلوار اسکینی مردانه; ترند های 2023"
               subtitle="
-              اگر دنبال تیپی خاص و در عین حال منحصر به فرد هستید، شلوار اسکینی مردانه جزو انتخاب های خوبی و مناسب به حساب می آید. شلوار اسکینی مردانه شامل مدل های جین، کتان، پارچه ای و&#8230; می شود. اگر می خواهید جدیدترین مدل ها را مشاهده کنید حتما این مقاله از دایان شاپ را به [&hellip;]
+              اگر دنبال تیپی خاص و در عین حال منحصر به فرد هستید، شلوار اسکینی مردانه جزو انتخاب های خوبی و مناسب به حساب می آید. شلوار اسکینی مردانه شامل مدل های جین، کتان، پارچه ای و&#8230; می شود. اگر می خواهید جدیدترین مدل ها را مشاهده کنید حتما این مقاله از اربیکس شاپ را به [&hellip;]
               "
             />
           </div>

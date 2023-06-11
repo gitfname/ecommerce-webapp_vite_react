@@ -38,6 +38,11 @@
     src: url(/fonts/iranyekan/Qs_Iranyekan-extrablack.ttf);
 }
 
+@font-face {
+    font-family: 'fancy-font';
+    src: url(/fonts/fancy-logo.otf);
+}
+
 * {
     @apply text-[14px] xl:text-[16px] 2xl:text-[18px];
     font-family: iranyekan400;

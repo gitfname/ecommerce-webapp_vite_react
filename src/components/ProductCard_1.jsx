@@ -5,7 +5,7 @@ function ProductCard_1({img, title="", price="", available={show:false, availabl
     return (
     <Link to="/ecommerce-webapp_vite_react/products/10" className="w-64 h-full select-none block">
         <div className="border border-slate-300/80 rounded-xl overflow-hidden group">
-            <img
+            <img loading="lazy"
                 alt=""
                 src={img}
                 className="w-full h-auto group-hover:scale-110 transition-transform duration-300"

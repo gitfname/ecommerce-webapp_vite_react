@@ -25,7 +25,7 @@ export default function BannerSlider_1() {
                 onSwiper={swiper => swiperRef.current = swiper}
             >
                 <SwiperSlide>
-                    <img
+                    <img loading="lazy"
                         alt=""
                         src={import.meta.env.BASE_URL+"/images/SlideShow_1_1_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
@@ -33,7 +33,7 @@ export default function BannerSlider_1() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
+                    <img loading="lazy"
                         alt=""
                         src={import.meta.env.BASE_URL+"/images/SlideShow_2_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"
@@ -41,7 +41,7 @@ export default function BannerSlider_1() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img
+                    <img loading="lazy"
                         alt=""
                         src={import.meta.env.BASE_URL+"/images/SlideShow_3_D.webp"}
                         className="w-full h-auto max-sm:aspect-video mx-auto"

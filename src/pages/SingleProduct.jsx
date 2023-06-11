@@ -8,19 +8,19 @@ import ProductImageSlider_1 from "../components/ProductImageSlider_1"
 
 function SingleProduct() {
 
-    // useEffect(
-    //     () => {
-    //         scrollTo({behavior: "smooth", left: 0, top: 0})
-    //     },
-    //     []
-    // )
+    useEffect(
+        () => {
+            scrollTo({behavior: "smooth", left: 0, top: 0})
+        },
+        []
+    )
 
   return (
     <div className="w-full max-w-7xl mx-auto pb-20 mt-6">
 
         <div className="w-full px-4 lg:px-10 grid-cols-1 grid lg:grid-cols-[35%_65%] gap-x-4 gap-y-6">
 
-            {/* <img
+            {/* <img loading="lazy"
                 alt=""
                 src={import.meta.env.BASE_URL+"/images/product-1-img.webp"}
                 className="w-auto h-auto"

@@ -2,7 +2,7 @@
 function BlogPostCard_1({title="", subtitle="", img=""}) {
   return (
     <div>
-        <img
+        <img loading="lazy"
             alt=""
             src={img}
             className="w-full aspect-video rounded-lg object-center object-cover shadow-md shadow-black/10"
